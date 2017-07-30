@@ -19,8 +19,8 @@
     </properties>
 
     <scm>
-        <connection>scm:git@github.com:kalaspuffar/VersioningDemo.git</connection>
-        <developerConnection>scm:git@github.com:kalaspuffar/VersioningDemo.git</developerConnection>
+        <connection>scm:git:git://github.com/kalaspuffar/VersioningDemo.git</connection>
+        <developerConnection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</developerConnection>
         <url>https://github.com/kalaspuffar/VersioningDemo</url>
         <tag>HEAD</tag>
     </scm>
@@ -42,6 +42,14 @@
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                 </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
