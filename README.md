@@ -8,7 +8,7 @@ When this is done you should be able to push new changes using ssh and that's re
 
 If you have any questions of additions to this documentation then please create a pull request or issue.
 
-I made a video explaining this repo in full. Please watch [https://www.youtube.com/edit?o=U&video_id=8j7Jn2uHK3Y](https://www.youtube.com/edit?o=U&video_id=8j7Jn2uHK3Y)
+I made a video explaining this repo in full. Please watch [https://www.youtube.com/watch?v=8j7Jn2uHK3Y](https://www.youtube.com/watch?v=8j7Jn2uHK3Y)
 
 ### Commands for building
 
